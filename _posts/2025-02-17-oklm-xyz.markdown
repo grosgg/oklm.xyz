@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "oklm.xyz"
+date:   2025-02-17 22:50:12 +0900
+categories: news
+---
+This is a beginning of oklm.xyz, a place to gather and showcase my creative initiatives. I am hoping to post about my various projects here, including coding, DIY, generative art, IoT, cooking and photography. It is intended to be random and messy, like a big clipboard.

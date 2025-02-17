@@ -1,0 +1,83 @@
+---
+---
+
+// Override minima theme variables
+
+// Core colors
+$base-background-color: #0a0a0a !default;  // Near black
+$base-text-color:      #eeeeee !default;   // Dark yellow 
+$link-base-color:      #d49f27 !default;   // Light yellow
+$brand-color:          $link-base-color !default;
+
+// Code formatting
+$code-background-color: lighten($base-background-color, 5%) !default;
+$code-text-color:      $link-base-color !default;
+$syntax-highlighting-theme: dark !default;
+
+// Quotes and borders
+$blockquote-color:     rgba($base-text-color, 0.7) !default;
+$border-color:      rgba($base-text-color, 1) !default;
+
+// Import minima after variables to apply overrides
+@import "minima";
+
+// Additional text element styles
+body {
+  background-color: $base-background-color;
+  color: $base-text-color;
+  border-color: $base-text-color;
+}
+
+.site-header {
+  border-top: none;
+  border-color: $border-color;
+}
+
+.site-nav {
+  background-color: $base-background-color;
+  border-color: $border-color;
+}
+
+.site-nav .page-link {
+  color: $base-text-color;
+}
+
+h1 {
+  color: $link-base-color;
+}
+
+blockquote {
+  border-left: 4px solid $blockquote-color;
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+code {
+  background-color: $code-background-color;
+  color: $link-base-color;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  border-color: $border-color;
+}
+
+pre {
+  background-color: $code-background-color;
+  border-color: $border-color;
+}
+
+pre code {
+  background-color: transparent;
+  // color: $base-text-color;
+  padding: 0;
+  border-radius: 0;
+}
+
+// Link hover states
+a {
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: lighten($link-base-color, 15%);
+    text-decoration: none;
+  }
+}
