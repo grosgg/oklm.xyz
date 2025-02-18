@@ -4,4 +4,4 @@ title:  "oklm.xyz"
 date:   2025-02-17 22:50:12 +0900
 categories: news
 ---
-This is a beginning of oklm.xyz, a place to gather and showcase my creative initiatives. I am hoping to post about my various projects here, including coding, DIY, generative art, IoT, cooking and photography. It is intended to be random and messy, like a big clipboard.
+Welcome to my little corner of the internet for sharing all the random, creative stuff I’m into. Think coding, DIY projects, generative art, IoT gadgets, cooking experiments, music, hiking adventures, and photography. It’s gonna be a bit all over the place, like a digital junk drawer, but that’s exactly how I want it to be.
