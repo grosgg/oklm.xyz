@@ -26,6 +26,7 @@ url: "https://oklm.xyz" # the base hostname & protocol for your site
 
 # Build settings
 theme: minima
+google_analytics: G-80YPMHPDQQ
 
 plugins:
   - jekyll-feed
