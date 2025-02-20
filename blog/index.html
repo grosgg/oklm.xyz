@@ -17,7 +17,9 @@ permalink: /blog/
           </a>
         </h3>
         {%- if post.excerpt -%}
+          <div class="post-excerpt">
           {{ post.excerpt }}
+          </div>
         {%- endif -%}
       </li>
       {%- endfor -%}
