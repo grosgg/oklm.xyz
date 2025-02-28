@@ -18,7 +18,14 @@ permalink: /blog/
         </h3>
         {%- if post.excerpt -%}
           <div class="post-excerpt">
-          {{ post.excerpt }}
+            {%- if post.thumbnail -%}
+              <div class="post-excerpt-image">
+                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" />
+              </div>
+            {%- endif -%}
+            <div class="post-excerpt-text">
+              {{ post.excerpt }}
+            </div>
           </div>
         {%- endif -%}
       </li>

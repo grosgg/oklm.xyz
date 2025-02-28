@@ -82,8 +82,15 @@ a {
   }
 }
 
-.post-excerpt img {
-  width: 30%;
+.post-excerpt {
+  display: flex;
+}
+.post-excerpt .post-excerpt-image {
+  flex: 1;
+  margin-right: 1em;
+}
+.post-excerpt .post-excerpt-text {
+  flex: 5;
 }
 
 .post-content {
