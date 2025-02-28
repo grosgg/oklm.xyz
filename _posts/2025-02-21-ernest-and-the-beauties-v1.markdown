@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Ernest & The Beauties v1.0"
-date:   2025-02-21
+title: "Ernest & The Beauties v1.0"
+date: 2025-02-21
 categories: video
-thumbnail: https://cdn.oklm.xyz/blog/videos/2025-02-21/Ernest+%26+The+Beauties+v1.0.jpg
+image: https://cdn.oklm.xyz/blog/videos/2025-02-21/Ernest+%26+The+Beauties+v1.0.jpg
 ---
 After two years of debating the idea, I finally took the plunge and got myself a small shrimp tank for Christmas. As a beginner, I’ve found shrimp care to be trickier than I expected, but it’s been a fun learning experience so far. Here’s how it’s been going.
 

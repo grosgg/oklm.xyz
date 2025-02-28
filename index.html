@@ -1,0 +1,45 @@
+---
+layout: home
+---
+<div class="blog-index">
+  <ul class="post-list">
+    {%- assign post = site.posts[0] -%}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if post.excerpt -%}
+        <div class="post-excerpt">
+          {%- if post.image -%}
+            <div class="post-excerpt-image">
+              <img src="{{ post.image }}" alt="{{ post.title }}" />
+            </div>
+          {%- endif -%}
+          <div class="post-excerpt-text">
+            {{ post.excerpt }}
+          </div>
+        </div>
+      {%- endif -%}
+    </li>
+  </ul>
+</div>
+
+<h1>~~ oklm ~~</h1>
+<div class="button-grid">
+  <a href="/blog/art" class="image-button">
+    <div class="image-placeholder">
+      <img src="https://cdn.oklm.xyz/blog/art/2025-02-20/grand-buffet-146.png" alt="art"></img>
+    </div>
+    <span class="button-text">Art</span>
+  </a>
+  <a href="/blog/video" class="image-button">
+    <div class="image-placeholder">
+      <img src="https://cdn.oklm.xyz/blog/videos/2025-02-21/Ernest+%26+The+Beauties+v1.0.jpg" alt="video"></img>
+    </div>
+    <span class="button-text">Video</span>
+  </a>
+</div>

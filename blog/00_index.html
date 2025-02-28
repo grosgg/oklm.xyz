@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog
+title: All Posts
 permalink: /blog/
 ---
 
@@ -18,9 +18,9 @@ permalink: /blog/
         </h3>
         {%- if post.excerpt -%}
           <div class="post-excerpt">
-            {%- if post.thumbnail -%}
+            {%- if post.image -%}
               <div class="post-excerpt-image">
-                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" />
+                <img src="{{ post.image }}" alt="{{ post.title }}" />
               </div>
             {%- endif -%}
             <div class="post-excerpt-text">

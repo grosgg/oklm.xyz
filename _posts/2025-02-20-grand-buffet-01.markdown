@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Grand Buffet #146"
-date:   2025-02-20
+title: "Grand Buffet #146"
+date: 2025-02-20
 categories: art
-thumbnail: https://cdn.oklm.xyz/blog/art/2025-02-20/grand-buffet-146.png
+image: https://cdn.oklm.xyz/blog/art/2025-02-20/grand-buffet-146.png
 ---
 Grand Buffet is a generative art project I created to celebrate the first anniversary of the [fxhash.xyz](https://www.fxhash.xyz/generative/slug/grand-buffet) platform.
 

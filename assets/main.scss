@@ -29,6 +29,7 @@ body {
 }
 
 .site-header {
+  z-index: 2;
   border-top: none;
   border-color: $border-color;
 }
@@ -84,15 +85,76 @@ a {
 
 .post-excerpt {
   display: flex;
-}
-.post-excerpt .post-excerpt-image {
-  flex: 1;
-  margin-right: 1em;
-}
-.post-excerpt .post-excerpt-text {
-  flex: 5;
+  flex-wrap: wrap;
+  
+  .post-excerpt-image {
+    flex: 1;
+    margin: 0 1em 1em 0;
+  }
+
+  .post-excerpt-text {
+    flex: 2;
+  }
 }
 
 .post-content {
   text-align: justify;
+}
+
+.button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 2rem;
+
+  .image-button {
+    position: relative;
+    width: calc(50% - 0.7rem);
+    aspect-ratio: 1;
+    border: $base-text-color 1px solid;
+
+    .image-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .button-text {
+      font-size: 2rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0, 0, 0, 0.1);
+      color: rgba(0, 0, 0, 0.0);
+      padding: 0.5rem;
+      text-align: center;
+      height: 100%;
+      width: 100%;
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.8);
+        color: $link-base-color;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .post-excerpt .post-excerpt-image {
+    flex: 0 0 100%;
+    margin-right: 0;
+    width: 100%;
+    height: auto;
+  }
+  .button-grid .image-button {
+    width: 100%;
+  }
 }

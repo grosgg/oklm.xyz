@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "oklm.xyz"
-date:   2025-02-17
+title: "oklm.xyz"
+date: 2025-02-17
 categories: news
 ---
 Welcome to my little corner of the internet for sharing all the random, creative stuff I’m into. Think coding, DIY projects, generative art, IoT gadgets, cooking experiments, music, hiking adventures, and photography. It’s gonna be a bit all over the place, like a digital junk drawer, but that’s exactly how I want it to be.
