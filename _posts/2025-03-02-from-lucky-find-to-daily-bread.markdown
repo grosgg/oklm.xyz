@@ -3,7 +3,7 @@ layout: post
 title: "From Lucky Find to Daily Bread"
 date: 2025-03-02
 categories: food
-image: https://cdn.oklm.xyz/blog/food/2025-03-02/paine-de-mie.jpg
+image: https://cdn.oklm.xyz/blog/food/2025-03-02/pain-de-mie.jpg
 ---
 A few months ago, I stumbled into a bit of luck—a home bakery machine landed in my kitchen for free. I’d been eyeing one for a while, but I wasn’t sure I’d use it enough to justify the cost, so I kept putting it off. Turns out, the universe decided to nudge me in the right direction.
 
@@ -29,4 +29,4 @@ This machine has quietly become a big part of my daily routine. I’ve stopped b
 
 So yeah, what started as a lucky find has turned into a legit lifestyle upgrade. Who knew a free bread machine could bring so much joy?
 
-![Pain de mie](https://cdn.oklm.xyz/blog/food/2025-03-02/paine-de-mie.jpg)
+![Pain de mie](https://cdn.oklm.xyz/blog/food/2025-03-02/pain-de-mie.jpg)
