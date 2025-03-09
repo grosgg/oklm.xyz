@@ -133,28 +133,30 @@ jobs:
 
     - name: Invalidate CloudFront cache
       run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
-{% endraw %}```
+{% endraw %}
+```
 
 Let’s break this down:
 
-1. Checkout
+## Checkout
 Grabs your latest code from the GitHub repository so the workflow can access it.
 
-2. Set up Ruby
+## Set up Ruby
 Prepares the Ruby environment and installs dependencies (including Jekyll) using Bundler for efficient package management.
 
-3. Build Jekyll Site
+## Build Jekyll Site
 Compiles your static site files using Jekyll’s build command, ready for deployment.
 
-4. Configure AWS Credentials
+## Configure AWS Credentials
 Securely connects to your AWS account using credentials stored in GitHub’s Secrets vault (never exposed in plain text).
 
-5. Deploy to S3
+## Deploy to S3
 Synchronizes the generated `_site` folder with your S3 bucket, removing any outdated files automatically.
 
-6. Clear CDN Cache
+## Clear CDN Cache
 Tells CloudFront to refresh its cached content worldwide, ensuring visitors see your updates immediately.
 
+# Final thoughts
 This setup creates a reliable way to deploy your Jekyll site. GitHub Actions automates the build and deployment process, S3 securely hosts your files, and CloudFront ensures faster loading times globally. While the initial configuration requires careful steps, the system runs quietly in the background once everything’s connected.
 
 You’ll only need to focus on updating your site’s content while the workflow handles the rest whenever you push changes. I hope this guide helps you. Let me know in the comments if you have any questions. Happy blogging!
