@@ -47,30 +47,48 @@ h1 {
   color: $link-base-color;
 }
 
-blockquote {
-  border-left: 4px solid $blockquote-color;
-  padding-left: 1rem;
-  font-style: italic;
-}
+.post-content {
+  text-align: justify;
 
-code {
-  background-color: $code-background-color;
-  color: $link-base-color;
-  padding: 0.2em 0.4em;
-  border-radius: 3px;
-  border-color: $border-color;
-}
+  h2 {
+    color: $link-base-color;
+    font-size: 1.2em;
+  }
 
-pre {
-  background-color: $code-background-color;
-  border-color: $border-color;
-}
+  blockquote {
+    border-left: 4px solid $blockquote-color;
+    padding-left: 1rem;
+    font-style: italic;
+  }
 
-pre code {
-  background-color: transparent;
-  // color: $base-text-color;
-  padding: 0;
-  border-radius: 0;
+  code {
+    background-color: $code-background-color;
+    color: $link-base-color;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    border-color: $border-color;
+  }
+
+  pre {
+    background-color: $code-background-color;
+    border-color: $border-color;
+  }
+
+  pre code {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .highlighter-rouge .highlight {
+    background: transparent;
+  }
+
+  img {
+    max-height: 25em;
+    display: block;
+    margin: auto;
+  }
 }
 
 // Link hover states
@@ -95,10 +113,6 @@ a {
   .post-excerpt-text {
     flex: 2;
   }
-}
-
-.post-content {
-  text-align: justify;
 }
 
 .button-grid {
