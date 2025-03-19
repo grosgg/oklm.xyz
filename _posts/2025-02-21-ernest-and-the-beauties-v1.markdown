@@ -9,7 +9,7 @@ After two years of debating the idea, I finally took the plunge and got myself a
 
 ![Ernest & The Beauties v1.0](https://cdn.oklm.xyz/blog/videos/2025-02-21/Ernest+%26+The+Beauties+v1.0.jpg)
 
-# The Initial Setup
+## The Initial Setup
 First, I had to figure out the tank setup. I went with an 8-liter cube-shaped tank—compact enough to fit nicely in my living room without taking over the space. I’m also planning to build a custom bookshelf that’ll double as a tank stand, but more on that in a future post.
 
 For the equipment, I mostly stuck with the Gex brand (except for the heater):
@@ -21,7 +21,7 @@ Inside the tank, I added a layer of black substrate, a few rocks, and a piece of
 
 After kickstarting the tank with a bacteria solution, I waited about two weeks for the water parameters to stabilize. Once everything was ready, I brought home 6 Yellow Dream Neocaridina shrimps and a single water snail from my local DIY shop.
 
-# Welcome Home, Shrimps!
+## Welcome Home, Shrimps!
 The shrimps and snail settled in pretty well. The plants and moss grew nicely, and I even got to see the shrimps molt (shed their shells) as they grew. Everything was going smoothly… until it wasn’t.
 
 First, I struggled with feeding. Some people say shrimps don’t need extra food because they’ll munch on algae and debris in the tank. Others insist that a shrimp colony won’t thrive without proper feeding. I ended up going with a middle ground—feeding them sparingly every few days.
@@ -30,7 +30,7 @@ Then, I think I waited too long to change the filter. About a month after introd
 
 Next up: overgrown plants. They started blocking light, and some leaves turned yellow. I suspect the decaying leaves were affecting the water quality, even though my test strips showed everything was fine. I ended up removing about half the plants, and they’ve since bounced back.
 
-# The Survivors
+## The Survivors
 Unfortunately, after all these hiccups, I’ve lost 4 of the 6 shrimps. It’s been a bummer, but I’m doing my best to keep the remaining two alive. Fingers crossed they’re a male and female so they can eventually repopulate the tank.
 
 On a brighter note, I managed to film a relaxing video of the tank when there were still 5 shrimps swimming around. If you’re into chill vibes, check it out on my YouTube channel!
