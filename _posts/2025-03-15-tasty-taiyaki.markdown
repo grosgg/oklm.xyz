@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tasty Taiyaki"
-date: 2025-03-23
+date: 2025-03-15
 tags: snap food
 thumb: https://cdn.oklm.xyz/snap/2025-03-23/taiyaki_sm.jpg
 image: https://cdn.oklm.xyz/snap/2025-03-23/taiyaki.jpg

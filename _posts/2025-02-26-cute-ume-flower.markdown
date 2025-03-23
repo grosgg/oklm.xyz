@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Cute Ume Flower"
-date: 2025-03-23
-tags: snap
+date: 2025-02-26
+tags: snap trip nature
 thumb: https://cdn.oklm.xyz/snap/2025-03-23/ume_sm.jpg
 image: https://cdn.oklm.xyz/snap/2025-03-23/ume.jpg
 width: 2449
