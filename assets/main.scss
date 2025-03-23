@@ -258,20 +258,16 @@ p.caption {
 
     a.btn {
       position: absolute;
-      top: 5px;
-      right: 5px;
+      top: -2px;
+      right: -2px;
       background: rgba(0, 0, 0, 0.7);
       color: white;
-      padding: 6px 12px;
+      padding: 5px 8px;
       border-radius: 4px;
       font-size: 0.8rem;
       text-decoration: none;
       z-index: 1;
       transition: background 0.3s ease;
-
-      &:hover {
-        background: rgba(0, 0, 0, 0.9);
-      }
     }
   }
 }
