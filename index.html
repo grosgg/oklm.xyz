@@ -1,37 +1,25 @@
 ---
 layout: home
 ---
+<h1>Latest Post</h1>
 <div class="blog-index">
   <ul class="post-list">
-    {%- assign post = site.posts[0] -%}
+    {%- assign post = site.tags.article[0] -%}
     {%- include post_listing.html post=post -%}
   </ul>
 </div>
 
-<h2>~~ other topics ~~</h2>
-<div class="button-grid">
-  <a href="/blog/art" class="image-button">
-    <div class="image-placeholder">
-      <img src="https://cdn.oklm.xyz/blog/art/2025-02-20/grand-buffet-146.png" alt="art"></img>
+<h1>Quick Snaps</h1>
+
+<div class="pswp-gallery home-gallery">
+{%- for post in site.tags.snap -%}
+  <div class="gallery-item">
+    <div class="gallery-thumb">
+      <a href="{{ post.image }}" class="thumb gallery-image" data-pswp-width="{{post.width}}" data-pswp-height="{{post.height}}">
+        <img src="{{ post.thumb }}" alt="{{ post.title }}" />
+      </a>
     </div>
-    <span class="button-text">Art</span>
-  </a>
-  <a href="/blog/video" class="image-button">
-    <div class="image-placeholder">
-      <img src="https://cdn.oklm.xyz/blog/videos/2025-02-21/Ernest+%26+The+Beauties+v1.0.jpg" alt="video"></img>
-    </div>
-    <span class="button-text">Video</span>
-  </a>
-  <a href="/blog/food" class="image-button">
-    <div class="image-placeholder">
-      <img src="https://cdn.oklm.xyz/blog/food/2025-03-02/pain-de-mie.jpg" alt="food"></img>
-    </div>
-    <span class="button-text">Food</span>
-  </a>
-  <a href="/blog/coding" class="image-button">
-    <div class="image-placeholder">
-      <img src="https://cdn.oklm.xyz/blog/coding/2025-03-09/deploy-workflow-slim.png" alt="coding"></img>
-    </div>
-    <span class="button-text">Coding</span>
-  </a>
+    <a href="{{ post.url | relative_url }}" class="btn">ℹ️</a>
+  </div>
+{%- endfor -%}
 </div>

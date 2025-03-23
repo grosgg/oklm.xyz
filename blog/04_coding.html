@@ -4,14 +4,17 @@ title: Coding
 permalink: /blog/coding/
 ---
 
+{% assign filtered_posts = site.posts | where_exp: "post",
+  "post.tags contains 'article' and post.tags contains 'coding'" %}
+
 <div class="blog-index">
-  {%- if site.categories.coding.size > 0 -%}
+  {%- if filtered_posts.size > 0 -%}
     <ul class="post-list">
-      {%- for post in site.categories.coding -%}
+      {%- for post in filtered_posts -%}
         {%- include post_listing.html post=post -%}
       {%- endfor -%}
     </ul>
   {%- else -%}
-    <p>No news posts found.</p>
+    <p>No posts found.</p>
   {%- endif -%}
 </div>

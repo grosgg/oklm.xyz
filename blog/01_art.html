@@ -4,14 +4,17 @@ title: Art
 permalink: /blog/art/
 ---
 
+{% assign filtered_posts = site.posts | where_exp: "post",
+  "post.tags contains 'article' and post.tags contains 'art'" %}
+
 <div class="blog-index">
-  {%- if site.categories.art.size > 0 -%}
+  {%- if filtered_posts.size > 0 -%}
     <ul class="post-list">
-      {%- for post in site.categories.art -%}
+      {%- for post in filtered_posts -%}
         {%- include post_listing.html post=post -%}
       {%- endfor -%}
     </ul>
   {%- else -%}
-    <p>No news posts found.</p>
+    <p>No posts found.</p>
   {%- endif -%}
 </div>

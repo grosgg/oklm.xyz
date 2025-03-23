@@ -4,14 +4,18 @@ title: Video
 permalink: /blog/video/
 ---
 
+{% assign filtered_posts = site.posts | where_exp: "post",
+  "post.tags contains 'article' and post.tags contains 'video'" %}
+
 <div class="blog-index">
-  {%- if site.categories.video.size > 0 -%}
+  {%- if filtered_posts.size > 0 -%}
     <ul class="post-list">
-      {%- for post in site.categories.video -%}
+      {%- for post in filtered_posts -%}
         {%- include post_listing.html post=post -%}
       {%- endfor -%}
     </ul>
   {%- else -%}
-    <p>No news posts found.</p>
+    <p>No posts found.</p>
   {%- endif -%}
 </div>
+

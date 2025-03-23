@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Deploying a Jekyll site with GitHub Actions, AWS S3 and CloudFront"
-categories: coding
+tags: article coding
 image: https://cdn.oklm.xyz/blog/coding/2025-03-09/deploy-workflow-slim.png
 
 ---
