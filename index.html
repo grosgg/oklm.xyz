@@ -8,7 +8,7 @@ layout: home
   </ul>
 </div>
 
-<h1>Quick Snaps</h1>
+<h1>Snaps</h1>
 
 <div class="pswp-gallery home-gallery">
 {%- for post in site.tags.snap -%}
@@ -18,7 +18,7 @@ layout: home
         <img src="{{ post.thumb }}" alt="{{ post.title }}" />
       </a>
     </div>
-    <a href="{{ post.url | relative_url }}" class="btn">ℹ️</a>
+    <a href="{{ post.url | relative_url }}" class="btn">info</a>
   </div>
 {%- endfor -%}
 </div>
