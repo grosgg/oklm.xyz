@@ -9,7 +9,7 @@ width: 1361
 height: 1814
 ---
 
-{% include gallery_image.html thumb=page.thumb image=page.image alt="Grand Buffet" height=page.height width=page.width %}
+{% include gallery_image.html thumb=page.thumb image=page.image alt=page.title height=page.height width=page.width %}
 
 <p class="caption">A relaxing Friday evening at the local takoyaki bar.</p>
 

@@ -9,7 +9,7 @@ width: 2449
 height: 1633
 ---
 
-{% include gallery_image.html thumb=page.thumb image=page.image alt="Grand Buffet" height=page.height width=page.width %}
+{% include gallery_image.html thumb=page.thumb image=page.image alt=page.title height=page.height width=page.width %}
 
 <p class="caption">Plum blossom in Yugawara</p>
 
