@@ -3,7 +3,6 @@ layout: post
 title: "Deploying a Jekyll site with GitHub Actions, AWS S3 and CloudFront"
 tags: article coding
 image: https://cdn.oklm.xyz/blog/coding/2025-03-09/deploy-workflow-slim.png
-
 ---
 Take a look around. The site you're browsing right now is powered by Jekyll, a static site generator that transforms plain text into fast websites. What keeps me coming back to Jekyll is its perfect blend of simplicity and customization potential, especially as a Ruby developer. In this guide, I'll walk through automating Jekyll deployments using GitHub Actions, then serving your site through AWS S3 and CloudFront for a cost-effective, scalable hosting solution.
 
