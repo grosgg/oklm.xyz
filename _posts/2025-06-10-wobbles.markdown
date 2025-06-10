@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Wobbles"
+date: 2025-06-10
+tags: snap art
+thumb: https://cdn.oklm.xyz/snap/2025-06-10/wobbles.png
+image: https://cdn.oklm.xyz/snap/2025-06-10/wobbles.png
+width: 800
+height: 800
+---
+
+{% include gallery_image.html thumb=page.thumb image=page.image alt=page.title height=page.height width=page.width %}
+
+<p class="caption">Wobbly sketch</p>
+
+I decided to do a quick generative art sketch during my lunch break today. Try it out [here](https://grosgg.github.io/visuals/wobbles/)! 🪱
