@@ -1,0 +1,25 @@
+---
+layout: post
+title: "My Summer 2026"
+date: 2026-08-21
+tags: article video
+image: https://cdn.oklm.xyz/blog/videos/2026-08-21/my_summer_2026.jpg
+---
+This summer, I haven't taken a long vacation or traveled far. Apart from a 5-day break on the coast, I was working and walking around the neighborhood during my free time, plus getting a little creative.
+
+I managed to complete some tasks and projects that I had been procrastinating on for a long time: changing the batteries on 2 of my watches, building new shelves in my bedroom, creating a system to open my van's trunk hatch from the inside, renewing my shrimp tank plants, and making pickles. These are small achievements, but they gave me satisfaction nonetheless and a nice morale boost. Most of my friends were out of town, but surprisingly, I didn't have much time to feel lonely. Instead, I could focus on making progress with these daily life improvements, so I feel like this alone time was actually quite useful.
+
+Another thing I created is a short video of this summer's daily scenes. I recently discovered [GAKHED](https://www.youtube.com/@gakhed)'s channel on YouTube. They record their cats and dog playing in the garden, using retro camcorders to do so. The amateur look of the videos, with their characteristic fuzziness and lack of image stabilization, gives a very charming and nostalgic feeling. The fact that the subjects of the videos are just normal pets being themselves is very relaxing. It makes me smile and wish I could have a dog one day.
+
+Check out one of my favorites:
+
+<iframe width="336" height="189" src="https://www.youtube.com/embed/srnFUme2iL4?si=_lOtIIyBOnI8nggt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+I wanted to shoot videos in the same style so I can watch them in a couple of years and hopefully remember how I was feeling at the time. Buying a used camcorder and dealing with transferring video to a modern laptop felt like too much of a hassle, so I cheated and achieved a similar effect with the [Rarevision VHS](https://rarevision.com/vhs-camcorder-app/) app. I realize it's not as good as a real vintage device, but it was good enough for this project. If I decide to do this again, I might invest in proper hardware. Finally, I skipped adding music in favor of better immersion.
+
+You can take a look here:
+
+<iframe width="336" height="189" src="https://www.youtube.com/embed/MNPdH5SJYFw?si=sLAwTV_ICmm8-425" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+September is around the corner, and daily life will pick up again. It was a fine summer.
